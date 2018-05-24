@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body-background{
+background-image: url(images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.body-background-uploader{
+background-image: url(images/urban.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.form-signin {
+    max-width: 500px;
+    height: 500px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+	//margin-top:90px;
+    background-color: #fff;
+	
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+
+.form-signin .form-signin-heading{
+    color:#4538ff;
+}
+
+.form-signin img{
+    width: 100%;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.signin-form, .body-container
+{
+	//border:solid red 1px;
+    margin-top: 160px;
+}
+.navbar-brand{
+    margin-top: -1em;
+}
+
+.navbar-default {
+	background-color:#ffffff;
+}
+#btn-submit{
+	height:45px;
+}
+.h5{
+	font-family:Verdana, Geneva, sans-serif;
+}
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+
+
+
+#all_uploads {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#upload_info{
+    text-align: center;
+}
+
+#all_uploads td, #all_uploads th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#all_uploads tr:nth-child(even){background-color: #f2f2f2;}
+#all_uploads tr:nth-child(odd){background-color: #9E9E9E;}
+
+#all_uploads tr:hover {background-color: #ddd;}
+
+#all_uploads th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3f51b7;
+    color: white;
+}
+
+#loadMore {
+    color:green;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:blue;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+}
+#showLess:hover {
+    color:blue;
+}
+
+#hideData {
+    color:black;
+    cursor:pointer;
+}
+
+#hideData:hover {
+    color:blue;
+}
+
+.custom-btn {
+    width: 100%;
+    margin-top: 1em;
+    border: 2px solid #3F51B5;
+    color: #3F51B5;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-color{
+    color: blue;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.popover.primary {
+    border-color:#337ab7;
+}
+.popover.primary>.arrow {
+    border-top-color:#337ab7;
+}
+.popover.primary>.popover-title {
+    color:#fff;
+    background-color:#337ab7;
+    border-color:#337ab7;
+}
+.popover.success {
+    border-color:#d6e9c6;
+}
+.popover.success>.arrow {
+    border-top-color:#d6e9c6;
+}
+.popover.success>.popover-title {
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+}
+.popover.info {
+    border-color:#bce8f1;
+}
+.popover.info>.arrow {
+    border-top-color:#bce8f1;
+}
+.popover.info>.popover-title {
+    color:#31708f;
+    background-color:#d9edf7;
+    border-color:#bce8f1;
+}
+.popover.warning {
+    border-color:#faebcc;
+}
+.popover.warning>.arrow {
+    border-top-color:#faebcc;
+}
+.popover.warning>.popover-title {
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc;
+}
+.popover.danger {
+    border-color:#ebccd1;
+}
+.popover.danger>.arrow {
+    border-top-color:#ebccd1;
+}
+.popover.danger>.popover-title {
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1;
+}
+
+.footer-below{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4738ff;
+    color: white;
+    text-align: center;
+    padding: 2em 2em;
+}
+
+@media screen and (max-width: 1199px) {
+    .body-background {
+    background-size: auto;
+}
+    .body-background-uploader {
+    background-size: auto;
+}
+    .signin-form, .body-container {
+    margin-top: 70px;
+}
+}
